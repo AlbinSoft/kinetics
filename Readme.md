@@ -1,18 +1,54 @@
 
-# Zoombox
+# Kinetics
 
-## Goal
-
-Show zoom over an image. 
+Zero-dependecy and Lightweight library to easely do CSS based transitions when user is scrolling down.
 
 ## How to use it
 
-Wrap the `img` tag to the thumbnail image with an `a` tag pointing the enlarged image.
+Prepare HTML content in it´s stand-by status and some CSS for the transitions you have planned.
 
 ```
-	<a class="zoombox" href="zoombox-en.png" title="Mouse over or touch and drag to zoom it"><img src="zoombox-th.png" alt="Leprechaum at home" /></a>
+	.something {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		opacity: 0;
+		transition: opacity 500ms ease-in;
+	}
+	.something.animate {
+		opacity: 1;
+	}
+	...
+	<div class="something">
+		Hello world!
+	</div>
 ```
+
+## Documentation
+
+Just add the `data-fires` attribute in the elements that must recieve the `.animate` class.
+
+Possible values are:
+
+* **et_vt** fires when element top reaches viewport top.
+
+* **em_vt** fires when element middle reaches viewport top.
+
+* **eb_vt** fires when element bottom reaches viewport top.
+
+* **et_vm** fires when element top reaches viewport middle.
+
+* **em_vm** fires when element middle reaches viewport middle.
+
+* **eb_vm** fires when element bottom reaches viewport middle.
+
+* **et_vb** fires when element top reaches viewport bottom.
+
+* **em_vb** fires when element middle reaches viewport bottom.
+
+* **eb_vb** fires when element bottom reaches viewport bottom.
+
 
 ## Sample
 
-Look at [CodePen](https://codepen.io/albinvlc/pen/yLQyxod)
+Look at [CodePen](https://codepen.io/albinsoft/pen/XWyJbez)
