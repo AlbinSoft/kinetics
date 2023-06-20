@@ -51,4 +51,6 @@ Possible values are:
 
 ## Sample
 
-Look at [CodePen](https://codepen.io/albinsoft/pen/XWyJbez)
+Look our example at [CodePen](https://codepen.io/albinsoft/pen/XWyJbez)
+
+Or a realworld use [Beyma France](https://www.beyma.fr/a-propos-de/)
