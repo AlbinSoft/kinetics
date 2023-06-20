@@ -1,11 +1,11 @@
 
 # Kinetics
 
-Zero-dependecy and Lightweight library to easely do CSS based transitions when user is scrolling down.
+Powerfull, Zero-dependecy and Lightweight library to easely do CSS based transitions when user is scrolling down.
 
 ## How to use it
 
-Prepare HTML content in it´s stand-by status and some CSS for the transitions you have planned.
+Prepare HTML content in itÂ´s stand-by status and some CSS for the transitions you have planned.
 
 ```
 	.something {
